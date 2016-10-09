@@ -1,23 +1,22 @@
 // schsdule events 
-var data = require('./lib/event/test/dummyData.json');
-var oEvent = new Event(7,new Date(), data);
+var data = require('./lib/test/dummyData.json');
+var Event = require('./lib/Event');
+var Scheduler = require('./lib/Scheduler');
+var Slack = require('./lib/Slack');
+
+
+var oEvent = new Event(7,new Date(),data);
 var oScheduler = new Scheduler();
+var oSlack = new Slack();
 
-
-oEvent.formatData();
-oScheduler.scheduleEvent(oEvent,0,1000,
+oScheduler.scheduleEvent(oEvent,0,1000,20,
     function(){
         var events = oEvent.upcomingEvents();
-
-        bot.sendWebhook({
-          text: 'Upcoming events \n Birthdays:' + JSON.stringify(events.birthdays),
-          channel: '#sovanta-ar-prospero',
-        },function(err,res) {
-          if (err) {
-            console.log('-------------> error',err); 
-          }
-          console.log('response', res);
-        });
+        oSlack.say(
+            'THIS IS A MESSAGE', 
+            function(){
+                console.log('success'); 
+            })       
     }
 );
 

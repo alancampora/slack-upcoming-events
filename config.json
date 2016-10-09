@@ -1,4 +1,4 @@
 {
-    "channel":"channel name",
-    "url":"http://webhookURL"
+    "channel":"channel",
+    "webhook":"webhookurl"
 }
