@@ -1,0 +1,27 @@
+{
+  "name": "slack-scheduler-bot",
+  "version": "1.0.0",
+  "description": "Scheduling events for slack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alancampora/slack-scheduler-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "node",
+    "scheduler"
+  ],
+  "author": "Alan Campora <alan.campora@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alancampora/slack-scheduler-bot/issues"
+  },
+  "homepage": "https://github.com/alancampora/slack-scheduler-bot#readme",
+  "devDependencies": {
+    "should": "^11.1.0"
+  }
+}
