@@ -3,4 +3,4 @@
 # slack-scheduler-bot
 
 Bot for scheduling messages in slack. 
-Ideal for see Birthdays of your co workers and his aniversaries. 
+Ideal for seeing Birthdays of your co workers and his aniversaries in the company 
