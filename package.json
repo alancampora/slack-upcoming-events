@@ -23,6 +23,7 @@
   "homepage": "https://github.com/alancampora/slack-scheduler-bot#readme",
   "devDependencies": {
     "should": "^11.1.0",
+    "sinon": "^1.17.6",
     "slack-node": "^0.1.8"
   }
 }
