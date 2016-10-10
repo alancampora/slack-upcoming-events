@@ -4,7 +4,7 @@
   "description": "Scheduling events for slack ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Not Implemented yet\" && exit 1"
   },
   "repository": {
     "type": "git",
